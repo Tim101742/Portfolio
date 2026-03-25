@@ -26,8 +26,11 @@ function Welcome() {
       </div>
     </div>
   </div>
+</div> 
+<div className="text-center scroll-text">
+  <p>Scroll omlaag</p>
+  <span className="arrow">↓</span>
 </div>
-
 </>
   );
 }
