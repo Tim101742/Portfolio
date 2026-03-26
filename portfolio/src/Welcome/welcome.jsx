@@ -2,10 +2,10 @@ import './welcome.css'
 function Welcome() {
   return (
     <>
-<div className="container mt-5" id="over">
-  <div className="row">
+<div className="container mt-5 pt-5" id="over">
+  <div className="row justify-content-center align-items-center">
     <div className="col-md-8 col-lg-8">
-      <div className="p-5 text-start">
+      <div className="p-5 text-center">
 
         <h1 className="title" id='title'>
           Welkom op mijn portfolio
@@ -27,10 +27,6 @@ function Welcome() {
     </div>
   </div>
 </div> 
-<div className="text-center scroll-text">
-  <p>Scroll omlaag</p>
-  <span className="arrow">↓</span>
-</div>
 </>
   );
 }
