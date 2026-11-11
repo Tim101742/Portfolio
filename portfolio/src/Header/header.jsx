@@ -20,7 +20,7 @@ function Header() {
       >
         <div className="container">
           <a className="navbar-brand fs-4 fw-semibold text-white" href="#">
-            Tim
+            Tim Manhave
           </a>
 
           <ul className="nav nav-pills gap-3">
@@ -42,7 +42,7 @@ function Header() {
             <li className="nav-item">
               <a
                 className="nav-link text-white"
-                href="https://101742.stu.sd-lab.nl/CV.pdf"
+                href="https://101742.stu.sd-lab.nl/CVTim.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

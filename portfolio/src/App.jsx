@@ -4,6 +4,7 @@ import About from "./About/about";
 import Header from "./Header/header";
 import Welcome from "./Welcome/welcome";
 import ScrollArrow from "./Arrow/Arrow";
+import Footer from "./Footer/Footer";
 import './index.css';
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
         <Skills/>
       <Projecten />
+      <Footer/>
 
     
     </>

@@ -6,29 +6,27 @@ function About() {
     <div className="container" id="about">
       <div className="row align-items-start">
 
-        <div className="col-md-6 ">
+<div className="col-md-6 "id="text">
           <h1>Over mij</h1>
           <p>
-            Welkom op mijn portfolio! Ik ben een gedreven en nieuwsgierige professional met een passie voor het creëren van doordachte en impactvolle oplossingen. 
-            Of het nu gaat om design, ontwikkeling of strategie — ik werk graag aan projecten waarin creativiteit en functionaliteit samenkomen.
+ Ik ben Tim Manhave, een ontwikkelaar die graag bezig is met programmeren en het bouwen van digitale projecten. Ik vind het interessant om ideeën uit te werken tot iets dat niet alleen werkt, maar ook prettig is om te gebruiken.
           </p>
 
           <p>
-            Ik hou ervan om ideeën om te zetten in tastbare resultaten. Daarbij combineer ik analytisch denken met oog voor detail en een sterke focus op gebruikservaring. 
-            Samenwerken vind ik belangrijk: de beste resultaten ontstaan wanneer verschillende perspectieven samenkomen.
+Ik houd me bezig met zowel de frontend als de backend van applicaties. Aan de frontend werk ik voornamelijk met HTML, CSS, JavaScript en React aan de backend gebruik ik onder andere Node.js, PHP, Laravel en SQL-databases voor het verwerken en opslaan van data.
           </p>
 
           <p>
-            In mijn werk streef ik naar kwaliteit, helderheid en continu leren. Elk project zie ik als een kans om te groeien en mijn vaardigheden verder te ontwikkelen.
+            Wat mij aanspreekt aan software development is voornamelijk het probleemoplossende gedeelte en ook het leren van nieuwe talen of andere frameworks.
           </p>
 
           <p>
-            Benieuwd naar mijn werk of wil je samenwerken? Neem gerust contact met me op!
+            Ik heb hieronder ook nog een gedeelte over mijn programeer vaardigheden en een paar projecten die ik heb gemaakt.
           </p>
         </div>
 
-            <div className="col-md-6 ">
-        <img src={profileImg} alt="Foto van mij" className="img-fluid rounded about-img" />
+            <div className="col-md-4">
+        <img src={profileImg} alt="Persoon" className="img-fluid rounded about-img" id="foto"/>
         </div>
 
       </div>

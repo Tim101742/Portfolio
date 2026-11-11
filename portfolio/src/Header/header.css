@@ -6,10 +6,36 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
   z-index: 1030;
 }
-.nav-link {
-  transition: opacity 0.2s ease;
+.nav-link,
+.navbar-brand {
+  position: relative;
+  transition: color 0.3s ease;
 }
 
-.nav-link:hover {
-  opacity: 0.8;
+.nav-link::after,
+.navbar-brand::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: white;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
 }
+
+.nav-link:hover::after,
+.navbar-brand:hover::after {
+  width: 100%;
+}
+.navbar-brand {
+  transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.25s ease;
+}
+
+.navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.75);
+  transform: translateY(-2px);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
+}
+ 

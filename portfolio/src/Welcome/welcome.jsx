@@ -8,19 +8,12 @@ function Welcome() {
       <div className="p-5 text-center">
 
         <h1 className="title" id='title'>
-          Welkom op mijn portfolio
+          Welkom op mijn portfolio website
         </h1>
 
-        <h2 className="fs-3 fw-semibold mb-3">
-          Alle tekst op deze pagina is op het moment placeholder tekst
-        </h2>
-
         <p className="fs-5 mb-0">
-  Hallo! Mijn naam is Tim en ik ben een enthousiaste ontwikkelaar
-  met een passie voor het bouwen van moderne en gebruiksvriendelijke
-  applicaties. Op deze pagina vind je een selectie van mijn projecten,
-  vaardigheden en ervaringen. Neem gerust een kijkje en ontdek wat ik
-  voor jou kan betekenen.
+Hallo ik ben Tim Manhave, een ontwikkelaar die graag bezig is met programmeren en het maken van digitale projecten. 
+Op deze pagina vind je mijn projecten, vaardigheden en een stuk informatie over mij.
         </p>
 
       </div>

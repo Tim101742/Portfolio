@@ -1,6 +1,14 @@
 #about {
-    margin-bottom: 20rem;
+    margin-bottom: 12rem;
 }
-.title{
-    font-size: 610px;
+
+#foto{
+    width: 100%;
+    height: auto;
+}
+#text{
+    margin-right: 13rem;
+}
+p {
+    font-size: 20px;
 }
