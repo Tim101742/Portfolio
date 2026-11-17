@@ -4,6 +4,7 @@ import Yume from './images/Yume.png'
 import Japan from './images/Japan.png'
 import Quizzie from './images/Quizzie.png'
 import vis from './images/vis.png'
+import gang from './images/2ccbe3f0-1c5b-4d7a-9f8e-2c6b8d9e1a2f.mp4'
 
 function Projecten() {
   return (
