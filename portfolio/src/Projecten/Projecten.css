@@ -27,11 +27,24 @@
 #project {
   margin-bottom: 15rem;
 }
+.carousel-control-prev,
+.carousel-control-next {
+  width: 100%;
+  pointer-events: none;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
+  pointer-events: auto;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  padding: 25px 5px;
+  padding: 35px 20px;
   display: inline-block;
+  background-size: 80% 80%;
+}
+.carousel-control-prev-icon {
+  transform: translateX(-20px);
+}
+.carousel-control-next-icon {
+  transform: translateX(20px);
 }

@@ -4,7 +4,8 @@ import Yume from './images/Yume.png'
 import Japan from './images/Japan.png'
 import Quizzie from './images/Quizzie.png'
 import vis from './images/vis.png'
-import gang from './images/2ccbe3f0-1c5b-4d7a-9f8e-2c6b8d9e1a2f.mp4'
+import gang from './images/2ccb903c-7474-483e-96bd-9cc537cd0ff5.mp4'
+import zee from './images/Movie_004.mp4'
 
 function Projecten() {
   return (
@@ -21,33 +22,46 @@ function Projecten() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"></button>
               </div>
               <div className="carousel-inner">
 
+
                 <div className="carousel-item active">
-                  <a href="https://101742.stu.sd-lab.nl/index.php?classId=95b9b87a-68f3-44d8-924f-54e626d0f35c&assignmentId=60a96aaa-b0e1-445f-b0fc-7e14dbd2a605&submissionId=6c7196be-1fee-35e8-fcb8-a316cf100a9b" target="_blank" rel="noopener noreferrer">
-                    <img src={ontkoking} className="carousel-img" alt="ontkoking" />
-                  </a>
+                    <video className="carousel-img" controls>
+                      <source src={zee} type="video/mp4"/>
+                    </video>
                   <div className="carousel-caption d-none d-md-block">
-                    <h5>Stop de ontkoking</h5>
-                    <p>Recepten website waar gebruikers zelf hun eigen recepten konden uploaden, aanpassen, verwijderen en delen.</p>
+                    <h5>Onderzeeër</h5>
+                    <p>Een kleine unity puzzel opdracht.</p>
                   </div>
                 </div>
 
-                <div className="carousel-item active">
-                  <a href="https://101742.stu.sd-lab.nl/index.php?classId=95b9b87a-68f3-44d8-924f-54e626d0f35c&assignmentId=60a96aaa-b0e1-445f-b0fc-7e14dbd2a605&submissionId=6c7196be-1fee-35e8-fcb8-a316cf100a9b" target="_blank" rel="noopener noreferrer">
-                    <img src={ontkoking} className="carousel-img" alt="ontkoking" />
-                  </a>
+
+                <div className="carousel-item">
+                    <video className="carousel-img" controls>
+                      <source src={gang} type="video/mp4"/>
+                    </video>
                   <div className="carousel-caption d-none d-md-block">
-                    <h5>Stop de ontkoking</h5>
-                    <p>Recepten website waar gebruikers zelf hun eigen recepten konden uploaden, aanpassen, verwijderen en delen.</p>
+                    <h5>Doolhof</h5>
+                    <p>Een kleine unity doolhof opdracht. (het is mischien een beetje luid)</p>
                   </div>
                 </div>
 
                 <div className="carousel-item">
-                  <a href="https://101742.stu.sd-lab.nl/YumeRamen/YumeRamen.php" target="_blank" rel="noopener noreferrer">
-                    <img src={Yume} className="carousel-img" alt="Yume" />
+                  <a href="https://github.com/Tim101742/stop-de-ontkoking" target="_blank" rel="noopener noreferrer">
+                    <img src={ontkoking} className="carousel-img" alt="ontkoking" />
                   </a>
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5>Stop de ontkoking</h5>
+                    <p>Recepten website waar gebruikers zelf hun eigen recepten konden uploaden, aanpassen, verwijderen en delen.</p>
+                  </div>
+                </div>
+
+
+                <div className="carousel-item">
+                    <img src={Yume} className="carousel-img" alt="Yume" />
                   <div className="carousel-caption d-none d-md-block">
                     <h5>Yume Ramen</h5>
                     <p>Een gerechten website.</p>
@@ -75,7 +89,7 @@ function Projecten() {
                 </div>
 
                 <div className="carousel-item">
-                  <a href="https://101742.stu.sd-lab.nl/Dive_detect/inlog/inlog.php" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Tim101742/Dive-Detect" target="_blank" rel="noopener noreferrer">
                     <img src={vis} className="carousel-img" alt="Dive detect" />
                   </a>
                   <div className="carousel-caption d-none d-md-block">
